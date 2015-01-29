@@ -1,0 +1,159 @@
+a {
+    color: #777;
+}
+
+.nav-div {
+    margin-bottom: 30px;
+    background-color:#eee;
+    height:86px;
+}
+
+.logo {
+    box-shadow: 0 0 6px #888888;
+}
+.nav-main {
+    margin-top: 45px;
+    padding-left: 28px;
+}
+
+.nav-main a {
+    color: #5C5C5C;
+}
+
+.nav-main li.nav-active {
+    background-color: #fff;
+}
+
+.nav-main li.nav-active a {
+    color: #464646;
+    }
+
+.nav-main li {
+    display: inline;
+    padding: 7px 13px;
+    background-color: #eee;
+    border: solid 1px #B4B4B4;
+    border-radius: 3px;    
+    margin-right: 5px;
+}
+.navbar-nav>li>a {
+    padding-bottom: 0;
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+.navbar-nav>li>a.counter {
+    padding-top: 8px;
+    padding-right: 7px;
+}
+
+.btn-xl {
+    padding: 16px 13px;
+    background-color: #002F80;
+    color: #FBFFFF;
+    margin-bottom: 4px;
+}
+
+.active-stage {
+    background-color: #E5EDF8;
+}
+
+.btn-stg {
+    margin-top: 16px;
+}
+
+.btn-active {
+    padding: 25px 13px;
+}
+
+.btn-active-text {
+    height: 71px;
+    background-color: #E5EDF8;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: -6px;
+}
+
+.btn-active-text * {
+    color: #03337F;
+    margin: 4px;
+}
+
+.btn-panel {
+    border-radius: 3px;
+    padding: 16px 13px;
+    background-color: #9CB4D5;
+    color: #FBFFFF;
+}
+
+.btn-panel-active {
+    background-color: #6A8EC0;
+}
+
+.panel-default {
+    background-color: #f8f8f8;
+    box-shadow: 0 0 5px #888888;
+}
+
+.panel-body {
+    padding: 0;
+    
+}
+
+.panel-default > .panel-heading {
+    height: 36px;
+    box-shadow: 0px 0px 5px #888888;
+    background-color: #ffffff;
+    
+}
+
+.panel-default > .panel-heading p {
+    margin: 0;
+}
+
+.panel-hdr { 
+    position: relative;
+    top: -4px;
+    color: red;
+    font-size: 1.2em;
+}
+
+.panel-date {
+    font-size: small;
+}
+
+
+.panel-footer {
+    background-color: #ffffff;    
+    box-shadow:  0px -1px 5px #888888; 
+}
+
+.grad1 {
+    width: 96px;
+    height: 91px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 2px;
+    border-right: 1px solid #E0E0E0;
+    background: -webkit-linear-gradient(#E9EEF4, #FCFFFF);
+    background: -o-linear-gradient(#E9EEF4, #FCFFFF); 
+    background: -moz-linear-gradient(#E9EEF4, #FCFFFF);
+    background: linear-gradient(#E9EEF4, #FCFFFF); 
+}
+
+.progress {
+    margin: 0;
+    height: 26px;
+    border-radius: 0;
+    background-color: white;
+    box-shadow: inset 0px 1px 5px #888888;
+}
+
+.progress-bar-danger {
+    text-align: right;
+    background-color: #E71D2B;
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+

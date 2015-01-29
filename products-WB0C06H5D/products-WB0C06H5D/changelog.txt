@@ -1,0 +1,46 @@
+**Changelog:**
+
+**Version 1.5:**
+
+- Removed Universal Mega Menu plugin and replaced with custom navigation menu. (all HTML files, style.css, Less file, main.js).
+- NEW Added 13 new ui designs. (ui-38.html to ui-50.html).
+- NEW 404 error page. (404.html).
+- NEW Two new about pages. (about-three.html and about-four.html).
+- NEW App site theme. (app-site.html).
+- NEW Author page. (author-page.html).
+- NEW One page theme with background image. (background-image.html).
+- NEW Box shadow component. (box-shadow-alt.html).
+- NEW Career page. (careers-one.html).
+- NEW Coming soon page. (coming-soon.html).
+- NEW Two new contact us page. (contact-us-three.html and contact-us-four.html).
+- NEW Events page. (events-two.html).
+- NEW FAQ design. (faq.html).
+- NEW Forget password page. (forget-password.html).
+- NEW Gallery page. (gallery-three.html).
+- NEW Five new heading styles. (heading.html).
+- NEW Magazine single page. (magazine-single.html).
+- NEW Masonry gird page. (masonry-grid.html).
+- NEW Our process page with new our process design. (our-process.html).
+- NEW Portfolio theme. (portfolio.html).
+- NEW Pricing table design. (pricing-table.html).
+- NEW Revolution slider design. (revolution-slider.html).
+- NEW Two new service pages. (service-three.html and service-four.html).
+- CSS clean up. 
+- Updated font awesome icon to latest version (4.2).
+- Updated revolution slider to latest version. In latest version file jquery.themepunch.plugins.js is renamed to jquery.themepunch.tools.js. The name is updated in index.html and revolution-slider.html file. 
+- Minor design update in coming-soon-image and coming-soon-color file. (css/styles/comingsoon.css)
+- Made "our process" section as a separate block. Previously it was inside "about us one". 
+- Minor update in revolution slider 4th slide. 
+- Updated popover design. (style.css)
+- Mobile navigation fix. (replaced old "mgmenu.min.js" file in "js" folder with new "mgmenu.min.js" file).
+
+**Version 1.1:**
+
+- Commented search box from sitemap.html.
+- Updated ui design 34 (ui-34.html, style-34.css)
+- Removed flex slider completely and replaced it with default Bootstrap carousel. Removed flexslider css, flexslider js, flex slider font. This means this theme don't have flex slider plugin. All previous flex sliders are updated to Bootstrap carousel. 
+- Renamed file name index-flex-slider.html to index-bootstrap-carousel.html and flexslider.html to bootstrap-carousel.html.
+
+**Version 1.0:**
+
+- Initial Release
