@@ -99,8 +99,12 @@ a {
 }
 
 .panel-body {
-    padding: 0;
-    
+    padding: 0;   
+}
+
+.panel-body p {
+    margin: 0;
+    padding: 6px 60px 0 10px;
 }
 
 .panel-default > .panel-heading {
