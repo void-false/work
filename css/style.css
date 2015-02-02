@@ -173,3 +173,12 @@ a {
 .list-inline {
     margin: 0;
 }
+.container-fixed {
+    min-width: 1201px;
+}
+
+.pull-arrow {
+    position: fixed;
+    right: 0%;
+    top: 35%;
+}
