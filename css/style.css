@@ -1,3 +1,7 @@
+body {
+	font-family: "Myriad Pro";
+}
+
 a {
     color: #777;
 }
@@ -9,15 +13,16 @@ a {
 }
 
 .logo {
-    box-shadow: 0 0 6px #888888;
+    box-shadow: 0 0 3px #888888;
 }
 .nav-main {
     margin-top: 45px;
     padding-left: 28px;
+	font-weight: 400;
 }
 
 .nav-main a {
-    color: #5C5C5C;
+    color: #5a5a5a;
 }
 
 .nav-main li.nav-active {
@@ -25,7 +30,8 @@ a {
 }
 
 .nav-main li.nav-active a {
-    color: #464646;
+    color: #434343;
+	font-weight: 600;
     }
 
 .nav-main li {
@@ -35,23 +41,41 @@ a {
     border: solid 1px #B4B4B4;
     border-radius: 3px;    
     margin-right: 5px;
+	
 }
 .navbar-nav>li>a {
     padding-bottom: 0;
     padding-top: 10px;
     padding-left: 0;
+	color: #666666;
+	letter-spacing: 0.03em;
+}
+
+.label {
+	background-color: #7e7e7e;
+	padding: 4px 8px 1px 8px;
+	font-weight: 500;
+	font-size: 0.85em;
 }
 
 .navbar-nav>li>a.counter {
-    padding-top: 8px;
+    padding-top: 10px;
     padding-right: 7px;
 }
 
 .btn-xl {
-    padding: 16px 13px;
-    background-color: #002F80;
-    color: #FBFFFF;
+    padding: 7px 13px;
+	background-color: #003282;
+	color: white;
     margin-bottom: 4px;
+	font-weight: 400;
+	font-size: 0.85em;
+	letter-spacing: 0.1em;
+}
+
+.digit {
+	font-size: 2.3em;
+	font-weight: 500;
 }
 
 .active-stage {
@@ -63,15 +87,25 @@ a {
 }
 
 .btn-active {
-    padding: 25px 13px;
+    padding: 15px 13px;
 }
 
 .btn-active-text {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 1.2em;
+	letter-spacing: -0.03em;
     height: 71px;
     background-color: #E5EDF8;
     padding-top: 10px;
     padding-left: 10px;
-    margin-left: -6px;
+    margin-left: -11px;
+}
+
+.btn-active-text h3 {
+	font-family: "Myriad Pro";
+	font-weight: 100;
+	font-size: 1.39em;
 }
 
 .btn-active-text * {
@@ -95,7 +129,14 @@ a {
 
 .panel-default {
     background-color: #f8f8f8;
-    box-shadow: 0 0 5px #888888;
+    box-shadow: 0 1px 1px #888888;
+}
+
+.page-header {
+    color: #5c5c5c;
+    font-weight: 100;
+    font-size: 1.7em;
+    padding-bottom: 2px;
 }
 
 .panel-body {
@@ -103,6 +144,8 @@ a {
 }
 
 .panel-body p {
+    color: #5e5e5e;
+    font-weight: 500;
     margin: 0;
     padding: 6px 60px 0 10px;
 }
@@ -121,12 +164,15 @@ a {
 .panel-hdr { 
     position: relative;
     top: -4px;
-    color: red;
+    color: #e71d2b;
     font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }
 
 .panel-date {
-    font-size: small;
+    color: #686868;
+    font-size: 0.85em;
 }
 
 
@@ -154,6 +200,13 @@ a {
     background: linear-gradient(#E9EEF4, #FCFFFF); 
 }
 
+h5 {
+    color: #414040;
+    font-weight: 500;
+    font-size: 0.72em;
+    
+}
+
 .progress {
     margin: 0px -2px 0 -1px;
     height: 26px;
@@ -172,6 +225,10 @@ a {
 
 .list-inline {
     margin: 0;
+}
+
+.marks {
+    font-size: 1.25em;
 }
 .container-fixed {
     min-width: 1201px;
