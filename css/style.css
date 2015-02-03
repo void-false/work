@@ -75,7 +75,11 @@ a {
 
 .digit {
 	font-size: 2.3em;
+<<<<<<< HEAD
 	font-weight: 500;
+=======
+	font-weight: 400;
+>>>>>>> 6ad962af100017c006f6fbe99fc65e8a3a371c51
 }
 
 .active-stage {
@@ -100,6 +104,12 @@ a {
     padding-top: 10px;
     padding-left: 10px;
     margin-left: -11px;
+}
+
+.btn-active-text h3 {
+	font-family: "Myriad Pro";
+	font-weight: 100;
+	font-size: 1.39em;
 }
 
 .btn-active-text h3 {
