@@ -1,11 +1,56 @@
 .col1 {
-    background-color: yellow;
+  font-size: 0.194in;
+  font-family: "Myriad Pro";
+  color: rgb( 67, 67, 67 );
+  line-height: 1.289;
+  text-align: left;
+  position: absolute;
+  left: 8.68055555555556in;
+  top: 0.68055555555556in;
+  width: 1in;
+  height: 0.194in;
+  z-index: 9;
 }
 
 .col2 {
-    background-color: red;
+  font-size: 0.194in;
+  font-family: "Myriad Pro";
+  color: rgb( 90, 90, 90 );
+  line-height: 1.289;
+  text-align: left;
+  position: absolute;
+  left: 11.5694444444444in;
+  top: 0.69444444444444in;
+  width: 0.722in;
+  height: 0.139in;
+  z-index: 11;
 }
 
 .col3 {
-    background-color: blue;
+  font-size: 0.194in;
+  font-family: "Myriad Pro";
+  color: rgb( 90, 90, 90 );
+  line-height: 1.289;
+  text-align: left;
+  position: absolute;
+  left: 12.7638888888889in;
+  top: 0.70833333333333in;
+  width: 0.931in;
+  height: 0.181in;
+  z-index: 13;
 }
+
+.col4 {
+  font-size: 0.194in;
+  font-family: "Myriad Pro";
+  color: rgb( 90, 90, 90 );
+  line-height: 1.289;
+  text-align: left;
+  position: absolute;
+  left: 10.2777777777778in;
+  top: 0.69444444444444in;
+  width: 0.722in;
+  height: 0.139in;
+  z-index: 14;
+}
+
